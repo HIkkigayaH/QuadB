@@ -1,0 +1,127 @@
+.nav-bar {
+  padding: 20px 30px 0px;
+}
+.nav-bar > div {
+  padding: 0px 15px;
+}
+.logo-container,
+.nav-btn-group,
+.nav-utils {
+  flex: 0 0 100%;
+}
+.logo-container > div > img {
+  padding: 10px;
+  width: 80%;
+}
+.logo-container > p {
+  font-size: 18px;
+  opacity: 0.8;
+  margin-top: -23px;
+  margin-bottom: 16px;
+  padding: 0 15px;
+}
+.logo-container > p > a {
+  color: #3dc6c1;
+}
+
+.dark-theme .nav-btn-group > div > button {
+  background-color: #2e3241;
+  color: #fff;
+  border: 0;
+}
+
+.light-theme .nav-btn-group > div > button {
+  color: #0c0f48;
+  background-color: #f8f9fa;
+  border: 0;
+}
+
+.nav-btn-group > div {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.nav-btn-group > div > button {
+  font-size: 14px;
+  padding: 5px 10px;
+  margin: 5px;
+  white-space: nowrap;
+  border-radius: 10px;
+  flex: 1;
+  line-height: 1.5;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+
+/* breakpoint-xs: 0;
+  breakpoint-sm: 576px;
+  breakpoint-md: 768px;
+  breakpoint-lg: 992px;
+  breakpoint-xl: 1200px; */
+
+@media screen and (max-width: 576px) {
+  .logo-container > div > img {
+    width: 80%;
+  }
+  .logo-container > *,
+  .nav-utils {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 576px) {
+  .logo-container {
+    flex: 0 0 58.333333%;
+  }
+  .nav-btn-group,
+  .nav-utils {
+    flex: 0 0 100%;
+  }
+  .logo-container > *,
+  .nav-utils {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .logo-container,
+  .nav-utils {
+    flex: 0 0 41.666667%;
+  }
+  .nav-btn-group {
+    flex: 0 0 16.666667%;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .logo-container,
+  .nav-btn-group,
+  .nav-utils {
+    flex: 0 0 33.333333%;
+    width: 33.333333%;
+  }
+  .nav-btn-group > div > button,
+  .telegram-button-container > button {
+    margin: 10px;
+    padding: 6px 20px;
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .logo-container,
+  .nav-btn-group,
+  .nav-utils {
+    flex: 0 0 33.333333%;
+    width: 33.333333%;
+  }
+  .logo-container > div {
+    max-width: 91.666667%;
+  }
+  .logo-container > div > img {
+    width: 70%;
+  }
+  .nav-btn-group > div > button,
+  .telegram-button-container > button {
+    margin: 10px;
+    padding: 6px 20px;
+    font-size: 1rem;
+  }
+}

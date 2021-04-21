@@ -1,0 +1,37 @@
+.counter-container {
+  height: 36px;
+  width: 36px;
+  margin: 10px;
+}
+
+.counter-path,
+.counter-progress {
+  stroke-dasharray: 300px, 300px;
+}
+.counter-path {
+  stroke-dashoffset: 0;
+  stroke: #d6d6d6;
+  stroke-linecap: round;
+}
+.counter-progress {
+  stroke: #3dc6c1;
+  transition: stroke-dashoffset 500ms ease;
+}
+.counter-text {
+  fill: #3dc6c1;
+  font-size: 44px;
+}
+
+@media screen and (max-width: 576px) {
+  .counter-container {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 576px) {
+  .counter-container {
+    height: 25px;
+    width: 25px;
+  }
+}

@@ -1,0 +1,18 @@
+.dark-theme {
+  background-color: #191d28;
+  color: #fff;
+}
+.light-theme {
+  background-color: #fff;
+  color: #0c0f48;
+}
+footer {
+  border-top: 2px solid #2e3241;
+}
+footer span {
+  font-size: 12px;
+  color: #888686;
+}
+footer span a {
+  color: rgb(61, 198, 193);
+}

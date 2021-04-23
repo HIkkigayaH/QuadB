@@ -4,19 +4,17 @@ import "./index.css";
 import "tachyons";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { applyMiddleware, combineReducers, createStore } from "redux";
-import { createLogger } from "redux-logger";
+import { combineReducers, createStore } from "redux";
 import { Provider } from "react-redux";
 
 import LayoutReducer from "./Redux/LayoutReducer/LayoutReducer";
 import DataReducer from "./Redux/DataReducer/DataReducer";
 
-const logger = createLogger();
 const rootReducer = combineReducers({
   LayoutReducer,
   DataReducer,
 });
-const store = createStore(rootReducer, applyMiddleware(logger));
+const store = createStore(rootReducer);
 
 ReactDOM.render(
   <React.StrictMode>

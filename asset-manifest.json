@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/QuadB/static/css/main.a830f242.chunk.css",
-    "main.js": "/QuadB/static/js/main.d33f078b.chunk.js",
-    "main.js.map": "/QuadB/static/js/main.d33f078b.chunk.js.map",
+    "main.js": "/QuadB/static/js/main.eebbf0e8.chunk.js",
+    "main.js.map": "/QuadB/static/js/main.eebbf0e8.chunk.js.map",
     "runtime-main.js": "/QuadB/static/js/runtime-main.4e008bf8.js",
     "runtime-main.js.map": "/QuadB/static/js/runtime-main.4e008bf8.js.map",
     "static/css/2.31461e4f.chunk.css": "/QuadB/static/css/2.31461e4f.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.31461e4f.chunk.css",
     "static/js/2.810cfe55.chunk.js",
     "static/css/main.a830f242.chunk.css",
-    "static/js/main.d33f078b.chunk.js"
+    "static/js/main.eebbf0e8.chunk.js"
   ]
 }

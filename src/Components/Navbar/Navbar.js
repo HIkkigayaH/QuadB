@@ -12,7 +12,6 @@ const mapStateToProps = (state) => ({
   currencies: state.DataReducer.currencies,
   cryptos: state.DataReducer.cryptos,
 });
-const mapDispatchToProps = (dispatch) => ({});
 
 const Navbar = ({ currencies, cryptos }) => {
   const [currencyOpen, setCurrencyOpen] = useState(false);

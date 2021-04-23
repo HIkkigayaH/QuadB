@@ -8,7 +8,7 @@ function App() {
     <div>
       <Router>
         <Switch>
-          <Route path="/:currencyPair?" component={Home} />
+          <Route path="/QuadB/:currencyPair?" component={Home} />
         </Switch>
       </Router>
     </div>

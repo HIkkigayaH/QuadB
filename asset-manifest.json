@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/QuadB/static/css/main.a830f242.chunk.css",
+    "main.js": "/QuadB/static/js/main.d33f078b.chunk.js",
+    "main.js.map": "/QuadB/static/js/main.d33f078b.chunk.js.map",
+    "runtime-main.js": "/QuadB/static/js/runtime-main.4e008bf8.js",
+    "runtime-main.js.map": "/QuadB/static/js/runtime-main.4e008bf8.js.map",
+    "static/css/2.31461e4f.chunk.css": "/QuadB/static/css/2.31461e4f.chunk.css",
+    "static/js/2.810cfe55.chunk.js": "/QuadB/static/js/2.810cfe55.chunk.js",
+    "static/js/2.810cfe55.chunk.js.map": "/QuadB/static/js/2.810cfe55.chunk.js.map",
+    "static/js/3.9ebb8a8e.chunk.js": "/QuadB/static/js/3.9ebb8a8e.chunk.js",
+    "static/js/3.9ebb8a8e.chunk.js.map": "/QuadB/static/js/3.9ebb8a8e.chunk.js.map",
+    "index.html": "/QuadB/index.html",
+    "static/css/2.31461e4f.chunk.css.map": "/QuadB/static/css/2.31461e4f.chunk.css.map",
+    "static/css/main.a830f242.chunk.css.map": "/QuadB/static/css/main.a830f242.chunk.css.map",
+    "static/js/2.810cfe55.chunk.js.LICENSE.txt": "/QuadB/static/js/2.810cfe55.chunk.js.LICENSE.txt",
+    "static/media/crypto-news-banner.6e4a62e6.png": "/QuadB/static/media/crypto-news-banner.6e4a62e6.png",
+    "static/media/logo.ea678db9.png": "/QuadB/static/media/logo.ea678db9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e008bf8.js",
+    "static/css/2.31461e4f.chunk.css",
+    "static/js/2.810cfe55.chunk.js",
+    "static/css/main.a830f242.chunk.css",
+    "static/js/main.d33f078b.chunk.js"
+  ]
+}
